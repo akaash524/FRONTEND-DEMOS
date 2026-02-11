@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(243, 231, 216);
+    margin: 0px;
+    padding: 0px;
+}
+#main-cont{
+    margin:50px 100px 50px 100px
+}
+hr{
+    margin-top: 0px;
+}
+h1{
+    text-align: center;
+    font-family:'Garamond';
+    margin-bottom: 0px;
+}
+#img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color:rgb(198, 76, 0)
+}
+p{
+    font-weight: 400;
+}
