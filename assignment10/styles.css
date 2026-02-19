@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    font-family:'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    color: red;
+}
+nav h1{
+    padding: 20px;
+    padding-left: 100px;
+}
+
+main{
+    background-color: rgb(227, 4, 4);
+    /* height: 700px; */
+}
+main .back{
+    padding:100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+main .back .back-left{
+    width: 600px;
+    color: white;
+}
+img{
+    width: 400px;
+    height: 200px;
+}
+
+main .back p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+main .down{
+    display: flex;
+    column-gap: 10px;
+    color: white;
+}
+main .down .card{
+    background-color: rgb(108, 19, 19);
+    padding: 50px;
+}
+main .down p{
+    font-size: 16px;
+    margin-top: 20px;
+    color: rgb(161, 158, 158);
+}
